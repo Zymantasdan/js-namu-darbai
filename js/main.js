@@ -1,4 +1,4 @@
-console.log(889234);
+// console.log(889234);
 // Lyginant, jei rezultatas tenkina palyginimo sąlygą, tai į console išvesti žodį “Pomidoras”, o jei sąlyga nėra tenkinama, išvesti sakinį “Bandykite kitą kartą.”.
 
 // Tarpusavyje palyginti skaičiaus tipo kintamuosius:
@@ -76,3 +76,69 @@ console.log(889234);
 //     console.log(netiesa);
     
 // }
+
+// Išvesti teksto tipo kintamųjų ilgius
+
+
+const tekstas1 ='Išvesti teksto tipo kintamųjų ilgius';
+const tekstas2 ='Tipo kintamųjų ilgius';
+
+console.log(tekstas1.length);
+console.log(tekstas2.length);
+
+// Tarpusavyje palyginti teksto tipo kintamųjų ilgius : 
+// kuris didesniskuris didesnis
+// kuris mažesnis
+// ar jie lygūs
+// ar jie nelygūs
+// kuris didesnis arba lygus
+// kuris mažesnis arba lygus
+
+const tekstoIlgis = tekstas1.length;
+console.log(tekstoIlgis);
+const tekstoIlgis2 = tekstas2.length;
+console.log(tekstoIlgis2);
+
+
+if (tekstoIlgis > tekstoIlgis2) {
+    
+    console.log('ilgesnis teksts - ' + tekstas1);
+    
+} else {
+    console.log('ilgesnis tekstas - ' + tekstas2);
+    
+}
+
+if (tekstoIlgis < tekstoIlgis2) {
+    
+    console.log('mazesnis tekstsas - ' + tekstas1);
+    
+} else {
+    console.log('mazesnis tekstas - ' + tekstas2);
+    
+}
+
+
+
+// Išvesti sąrašo tipo kintamųjų ilgius
+
+const sarasoIlgis = ['Alytus', 'Kaunas', 'Vilnius', 'Klaipeda'];
+const sarasoilgis2 = ['Alytus', 'Kaunas', 'Vilnius', 'Klaipeda', 'Kedainiai'];
+
+const ilgiai1 = sarasoIlgis.length;
+console.log(ilgiai1);
+const ilgiai2 = sarasoilgis2.length;
+console.log(ilgiai2);
+
+// kuris didesnis
+// kuris mažesnis
+
+if (ilgiai1 > ilgiai2) {
+    console.log(`${ilgiai1} > ${ilgiai2}`);
+    console.log('tiesa ' + sarasoIlgis);
+    
+} else {
+    console.log(`${ilgiai1} > ${ilgiai2}`);
+    console.log('netiesa ' + sarasoilgis2);
+    
+}
