@@ -141,4 +141,55 @@ if (ilgiai1 > ilgiai2) {
     console.log(`${ilgiai1} > ${ilgiai2}`);
     console.log('netiesa ' + sarasoilgis2);
     
+};
+console.clear();
+
+console.log('------------- ciklai-------------');
+
+// Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):
+// 0 - 0
+// 0 - 4
+// 0 - 100
+// 574 - 815
+// -50 - 50
+// -70 - 30
+
+// for (let i = 0; i < 5; i++) {
+//     console.log(i);
+// }
+
+for (let i = 0; i <= 0; i++) {
+    console.log(i);
+}
+
+for (let i = 0; i <= 4; i++) {
+    console.log(i);
+}
+
+for (let i = 0; i <= 100; i++ ) {
+    console.log(i);
+}
+
+for (let i = 574; i <= 815; i++) {
+    console.log(i);
+
+
+}for (let i = -50; i <= 50; i++) {
+    console.log(i);
+}
+
+for (let i = -70; i <= 30; i++) {
+    console.log(i);
+}
+
+console.clear();
+
+// panaudojant ciklą perrašyti tekstinio tipo kintamųjų reikšmes iš kito galo:
+// pvz.: “abcdef” -> “fedcba”
+
+const abc =['a', 'b', 'c', 'd', 'e', 'f'];
+// console.log(abc.length);
+
+for (let i = abc.length - 1; i >= 0; i-- )  {
+    console.log(abc[i]);
 }
